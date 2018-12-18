@@ -1,0 +1,3 @@
+isure的CircleView完全是自己参考TextView写的，没有参考book，和book中的CircleView完全不一样。
+其实book中的CircleView没有什么参考价值，原因是：book中的CircleView没有按照规范来实现，比如layout_width="wrap_content"时，测量宽度被设置为固定值，这在实际开发中是不可能的，还有一些其他问题。
+相反，isure的CircleView可以作为继承自View的自定义控件的模板来用，特别是onMeasure方法的框架是可以通用的，onDraw方法根据不同控件改动会较大。

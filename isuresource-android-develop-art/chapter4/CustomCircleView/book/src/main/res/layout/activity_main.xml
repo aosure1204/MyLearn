@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.example.customcircleview.ui.CircleViewSimple
+        android:id="@+id/circleView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#000000"/>
+
+    <com.example.customcircleview.ui.CircleView
+        android:id="@+id/circleView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#000000"
+        app:circle_color="#00ff00" />
+
+</LinearLayout>
