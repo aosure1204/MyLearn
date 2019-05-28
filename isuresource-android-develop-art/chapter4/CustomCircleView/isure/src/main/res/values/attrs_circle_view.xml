@@ -1,5 +1,0 @@
-<resources>
-    <declare-styleable name="CircleView">
-        <attr name="radius" format="dimension" />
-    </declare-styleable>
-</resources>

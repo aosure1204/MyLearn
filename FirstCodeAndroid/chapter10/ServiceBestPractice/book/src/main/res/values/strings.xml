@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DownloadTest</string>
+    <string name="channel_name">channel name</string>
+    <string name="channel_description">channel description</string>
+</resources>

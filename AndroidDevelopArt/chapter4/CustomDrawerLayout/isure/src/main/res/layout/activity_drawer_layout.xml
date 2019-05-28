@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.isure.animator.drawer.CustomDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_content">
+        <Button
+            android:id="@+id/btn_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm content"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_menu">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm menu"/>
+    </FrameLayout>
+</com.isure.animator.drawer.CustomDrawerLayout>

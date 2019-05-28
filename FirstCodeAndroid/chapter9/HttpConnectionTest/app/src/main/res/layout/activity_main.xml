@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/http_con_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use HttpConnectionClient"
+        app:layout_constraintBottom_toTopOf="@id/scroll_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ok_http"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ok_http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use OkHttp"
+        app:layout_constraintBottom_toTopOf="@id/scroll_view"
+        app:layout_constraintLeft_toRightOf="@id/http_con_client"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/http_con_client" >
+        <TextView
+            android:id="@+id/show_response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"/>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

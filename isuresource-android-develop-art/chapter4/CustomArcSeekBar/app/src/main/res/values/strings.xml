@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">CustomArcSeekBar</string>
-
-    <string name="air_is_out_of_range">风量值超出范围</string>
-    <string name="temperature_is_out_of_range">温度值超出范围</string>
-</resources>
