@@ -1,0 +1,3 @@
+rootProject.name='ImageLoaderDemo'
+include ':isure'
+include ':book'
